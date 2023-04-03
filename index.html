@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Web App</title>
+
+    <!-- Font Awsome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.png">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <secton class="Header">
+            <div class="Header__title">
+                <h2>Add Your Todo Lists</h2>
+                
+            </div>
+        </secton>
+
+        <!-- Todo Content section -->
+        <section class="Todo">
+            <div class="Todo__Data">
+                <div class="Todo__values">
+                    <input type="text" id="input--value" class="input__value" placeholder="Enter Your Todo List"
+                        name="Todo">
+                    <button id="input__btn" class="input__button">Save</button>
+                </div>
+                <div class="Todo__lists background">
+                    <ul class="Todo__container">   
+                    </ul> 
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Javascript -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
